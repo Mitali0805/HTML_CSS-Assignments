@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Webpage including Form</title>
+        <link rel="stylesheet" type="text/css" href="Assign2.css">
+    </head>
+    <body>
+        
+        <form >
+            <div class="form-control">
+            <h1>COVID-19 Survey Form</h1>
+            <p><b>Note:</b>Form is to be completed within 14 days</p>
+            <label>Name :</label>
+            <input type="text" placeholder="Enter full name">
+            
+            <label>Mobile No :</label>
+            <input type="number"placeholder="Enter Mobile No.">
+
+            <label>Gender :</label>
+            <input type="radio" name="gen" value="male" class="r1">Male
+            <input type="radio" name="gen" value="female" class="r1">Female
+            <input type="radio" name="gen" value="other" class="r1">Other
+            <br/>
+
+            <label>Which Age group do you fall under?</label>
+            <input type="radio" name="age" class="r1">0-17
+            <input type="radio" name="age" class="r1">18-35
+            <input type="radio" name="age" class="r1">36-58
+            <input type="radio" name="age" class="r1">58-70
+            <input type="radio" name="age" class="r1">70 and above
+            
+            <label>Birth Date:</label>
+            <input type="date" placeholder="Enter Birth date">
+
+            <label>Address :</label>
+            <textarea placeholder="Enter Permanent Address" maxlength="10"></textarea>
+
+            <label>City :</label>
+            <select>
+                <option>Pune</option>
+                <option>Mumbai</option>
+                <option>Delhi</option>
+                <option>Kolkata</option>
+                <option>Bangalore</option>
+                <option>Chennai</option>
+            </select>
+            <br/>
+
+            <label>Mention your Symptoms :</label>
+            <input type="checkbox" class="r1">fever
+            <input type="checkbox" class="r1">dry cough
+            <input type="checkbox" class="r1">tiredness
+            <input type="checkbox" class="r1">headache
+            <input type="checkbox" class="r1">sore throat
+            <input type="checkbox" class="r1">diarrhoea
+
+            <br/>
+            <button class="btn-info" type="submit">Submit</button>
+          </div>  
+        </form>
+    </body>
+</html>

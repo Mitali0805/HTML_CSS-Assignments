@@ -1,0 +1,67 @@
+body{
+    background-image: 
+   url(virus.jpg);
+    background-size: cover;
+}
+form{
+    padding: 50px;
+}
+
+h1{
+    font-size:40px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+.form-control{
+display: block;
+background-color: SteelBlue;
+color: mistyrose;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height:1062px;
+width: 50%;
+border:1px solid midnightblue;
+border-radius: 0.25rem;
+margin-left: 300px;
+}
+
+label{
+    display: flex;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+   margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: -70px;
+    font-style: unset;
+    font-size: inherit;
+    width:500px;
+    border: solid white;
+    border-radius: 5px;
+    
+}
+
+.r1{
+    display: inline-block;
+    margin-left:-100px;
+}
+
+.btn-info{
+    color: white;
+    display: block;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
+    background-color:#4CAF50; color:white;
+    padding-bottom: 5px;
+    
+}
